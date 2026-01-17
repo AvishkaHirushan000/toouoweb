@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAMING AVIYA - Your Ultimate Gaming Hub</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="bg-gradient gradient-1"></div>
+        <div class="bg-gradient gradient-2"></div>
+        <div class="bg-gradient gradient-3"></div>
+        <div class="particles" id="particles"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-gamepad"></i>
+                <span class="logo-text">GAMING AVIYA</span>
+            </a>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-item active">Home</a>
+                <a href="#features" class="nav-item">Features</a>
+                <a href="#games" class="nav-item">Games</a>
+                <a href="#about" class="nav-item">About</a>
+                <a href="#contact" class="nav-item">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <a href="login.html" class="btn-secondary">Login</a>
+                <a href="register.html" class="btn-primary">
+                    <span class="btn-text">Sign Up</span>
+                    <span class="btn-glow"></span>
+                </a>
+            </div>
+            <button class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-badge" data-aos="fade-down">
+                <i class="fas fa-fire"></i>
+                <span>Welcome to the Future of Gaming</span>
+            </div>
+            <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+                <span class="gradient-text">GAMING AVIYA</span>
+            </h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+                Your Ultimate Gaming Platform for Top-Ups, Tournaments & More
+            </p>
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="300">
+                <a href="register.html" class="btn-primary btn-large">
+                    <span class="btn-text">Get Started</span>
+                    <span class="btn-icon"><i class="fas fa-rocket"></i></span>
+                    <span class="btn-glow"></span>
+                </a>
+                <a href="#features" class="btn-outline btn-large">
+                    <span class="btn-text">Learn More</span>
+                    <span class="btn-icon"><i class="fas fa-arrow-down"></i></span>
+                </a>
+            </div>
+            <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
+                <div class="stat-item">
+                    <div class="stat-number" data-count="50000">0</div>
+                    <div class="stat-label">Active Users</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="100">0</div>
+                    <div class="stat-label">Games Available</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="24">0</div>
+                    <div class="stat-label">Support 24/7</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Why Choose Us</span>
+                <h2 class="section-title">Amazing Features</h2>
+                <p class="section-subtitle">Everything you need for the ultimate gaming experience</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="feature-title">Instant Top-Up</h3>
+                    <p class="feature-text">Get your game credits instantly with our automated system</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Secure Payment</h3>
+                    <p class="feature-text">Bank-level security for all your transactions</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3 class="feature-title">24/7 Support</h3>
+                    <p class="feature-text">Our team is always here to help you</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <i class="fas fa-tags"></i>
+                    </div>
+                    <h3 class="feature-title">Best Prices</h3>
+                    <p class="feature-text">Competitive pricing with regular discounts</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3 class="feature-title">Tournaments</h3>
+                    <p class="feature-text">Join exciting tournaments and win prizes</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="feature-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h3 class="feature-title">Rewards</h3>
+                    <p class="feature-text">Earn points and get exclusive rewards</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Games Section -->
+    <section class="games" id="games">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Popular Games</span>
+                <h2 class="section-title">Top Games Available</h2>
+                <p class="section-subtitle">Top-up your favorite games instantly</p>
+            </div>
+            <div class="games-grid">
+                <div class="game-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="game-image">
+                        <img src="https://via.placeholder.com/300x400/1a1a2e/00d4ff?text=Free+Fire" alt="Free Fire">
+                        <div class="game-overlay">
+                            <a href="#" class="btn-game">Top Up Now</a>
+                        </div>
+                    </div>
+                    <div class="game-info">
+                        <h3 class="game-title">Free Fire</h3>
+                        <p class="game-category">Battle Royale</p>
+                    </div>
+                </div>
+                <div class="game-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="game-image">
+                        <img src="https://via.placeholder.com/300x400/1a1a2e/ff6b6b?text=PUBG+Mobile" alt="PUBG Mobile">
+                        <div class="game-overlay">
+                            <a href="#" class="btn-game">Top Up Now</a>
+                        </div>
+                    </div>
+                    <div class="game-info">
+                        <h3 class="game-title">PUBG Mobile</h3>
+                        <p class="game-category">Battle Royale</p>
+                    </div>
+                </div>
+                <div class="game-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="game-image">
+                        <img src="https://via.placeholder.com/300x400/1a1a2e/4ecdc4?text=Mobile+Legends" alt="Mobile Legends">
+                        <div class="game-overlay">
+                            <a href="#" class="btn-game">Top Up Now</a>
+                        </div>
+                    </div>
+                    <div class="game-info">
+                        <h3 class="game-title">Mobile Legends</h3>
+                        <p class="game-category">MOBA</p>
+                    </div>
+                </div>
+                <div class="game-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="game-image">
+                        <img src="https://via.placeholder.com/300x400/1a1a2e/95e1d3?text=Valorant" alt="Valorant">
+                        <div class="game-overlay">
+                            <a href="#" class="btn-game">Top Up Now</a>
+                        </div>
+                    </div>
+                    <div class="game-info">
+                        <h3 class="game-title">Valorant</h3>
+                        <p class="game-category">FPS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-gamepad"></i>
+                        <span class="logo-text">GAMING AVIYA</span>
+                    </div>
+                    <p class="footer-text">Your trusted gaming platform for instant top-ups and more.</p>
+                    <div class="social-links">
+  <a href="https://www.facebook.com/avishka.hirushan.629085" class="social-link" target="_blank">
+    <i class="fab fa-facebook"></i>
+  </a>
+
+  <a href="https://twitter.com/yourprofile" class="social-link" target="_blank">
+    <i class="fab fa-twitter"></i>
+  </a>
+
+  <a href="https://www.instagram.com/aviya_yt/" class="social-link" target="_blank">
+    <i class="fab fa-instagram"></i>
+  </a>
+
+  <a href="https://discord.gg/wqG9BZsv" class="social-link" target="_blank">
+    <i class="fab fa-discord"></i>
+  </a>
+</div>
+
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <a href="#" class="footer-link">Home</a>
+                    <a href="#" class="footer-link">About Us</a>
+                    <a href="#" class="footer-link">Games</a>
+                    <a href="#" class="footer-link">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Support</h4>
+                    <a href="#" class="footer-link">Help Center</a>
+                    <a href="#" class="footer-link">Terms of Service</a>
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                    <a href="#" class="footer-link">FAQ</a>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Contact Us</h4>
+                    <p class="footer-link"><i class="fas fa-envelope"></i> avishkahirushan90@gmail.com</p>
+                    <p class="footer-link"><i class="fas fa-phone"></i> +94 70 173 4247</p>
+                    <p class="footer-link"><i class="fas fa-map-marker-alt"></i> mathale</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 GAMING AVIYA. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
